@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bongani - Cybersecurity Portfolio</title>
+  <meta name="description" content="Cybersecurity portfolio of Bongani, specializing in ethical hacking, penetration testing, social engineering, and exploitation." />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="Content" href="Content.html"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Matrix Background Canvas -->
+  <canvas id="matrixCanvas"></canvas>
+
+        <!-- HERO SECTION -->
+        <header class="hero">
+       <div class="hero-overlay"></div>
+
+     <div class="hero-content">
+      <h1 class="glitch-text">Bongani - Cybersecurity Specialist</h1>
+      <p>Ethical Hacking | Penetration Testing | Exploitation</p>
+     </div>
+
+
+  </header>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section fade-in">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="linux.JPG"  />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p id="typing-text">
+          I am a cybersecurity enthusiast with practical experience in Linux, networking, and system exploitation. My journey began with mastering Linux and Python for automation, progressing to network analysis using Wireshark and Nmap. As my skills advanced, I explored IoT security, specifically exploiting vulnerabilities in IP cameras.
+        </p>
+        <p>
+          I have hands-on experience in password cracking, social engineering, and web application testing using Burp Suite. My expertise now focuses on advanced system exploitation using Metasploit, where I specialize in exploiting Windows systems, privilege escalation, and post-exploitation persistence.
+        </p>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          <a href="https://twitter.com/@BonganiYoung10" target="_blank">Twitter</a>
+        </div>
+	  <a href="Content.html" class="btn" download>Content</a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="section fade-in">
+    <div class="container">
+      <h2>My Skills & Services</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <h3>Beginner Level</h3>
+          <p>Linux (Kali, Ubuntu), Bash scripting, Python automation, Networking, Virtualization (VMWare, VirtualBox), Nmap, Wireshark, tcpdump, IoT IP Camera Hacking.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Intermediate Level</h3>
+          <p>Password Cracking (Hashcat, John the Ripper), Social Engineering (Phishing Simulations), Web Application Security (Burp Suite), Advanced Python & Bash Scripting.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Exploitation Level</h3>
+          <p>Metasploit Framework, Windows System Exploitation, Privilege Escalation, Post-Exploitation Persistence, Vulnerability Assessment & Exploitation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PORTFOLIO PROJECTS SECTION -->
+  <section id="portfolio" class="section fade-in">
+    <div class="container">
+      <h2>Portfolio Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="security-camera.jpg" alt="IoT Camera Hack" />
+          <h3>IoT IP Camera Exploitation</h3>
+          <p>Exploited vulnerabilities in IoT IP cameras, gaining remote access to streams and control interfaces in a secured lab environment.</p>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="web app.png"Web App Testing" />
+          <h3>Web App Penetration Testing</h3>
+          <p>Performed security testing on a vulnerable web application, identifying SQL injection, XSS, and broken authentication flaws using Burp Suite.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="metasploit.jpg"Windows Exploit" />
+          <h3>Windows Exploitation with Metasploit</h3>
+          <p>Demonstrated exploitation of vulnerable Windows servers using Metasploit, showcasing privilege escalation and data exfiltration techniques.</p>
+        </div>
+
+        <div class="portfolio-item">
+        <img src="wireless-network-security-testing.webp"Wi-Fi Testing" />
+        <h3>Wi-Fi Penetration Testing</h3>
+        <p>Malicious actors can conduct attacks spoofing your network stealing yours and customer information. Conducting a thorough penetration testing assessment, testing all aspects associated with Wi-Fi security.</p>
+        </div>
+
+	 <div class="portfolio-item">
+        <img src="anonymous.avif"Anonymouse" />
+        <h3>Remaining Anonymouse</h3>
+        <p>Many people have used ToR and VPN's to obscure their identity online. Although these services will obscure your IP addresses, intelligence and commercial interests have developed an even more effective way of identifying you through browser fingerprinting. This works even while cookies are disabled.
+	Be careful while using a VPN or ToR as they only hide your IP address.
+	</div>
+
+	<div class="portfolio-item">
+        <img src="Shodan.jpg"Reconnaissance" />
+        <h3>Reconnaissance</h3>
+	<p>Although every hacker is looking forward to pwning the system, reconnaissance may be the most important part of the hacking process. In many cases, reconnaissance can consume 70-80% of the time of hacking process. Without good reconnaissance, your hacking attempts are likely to be for naught.
+	Exploits are very specific to the technology being utilized.
+	</div>
+
+       </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bongani. All rights reserved.</p>
+    <p><a href="#hero">Back to Top</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
